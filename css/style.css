@@ -149,7 +149,6 @@ header {
 }
 
 .card--price {
-    display: inline;
     font-size: 14px;
     font-weight: 600;
     color: orangered;
