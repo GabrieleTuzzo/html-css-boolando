@@ -196,6 +196,16 @@ footer {
     padding: 0 4px;
 }
 
+.footer--social-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer--social-icons > a,
+.footer--social-icons svg {
+    display: block;
+}
+
 /* UTILITIES */
 .display-none {
     display: none;
