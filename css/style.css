@@ -82,6 +82,32 @@ img {
     background-color: green;
 }
 
+.card--brand {
+    font-size: 14px;
+}
+
+.card--name {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card--price {
+    display: inline;
+    font-size: 14px;
+    font-weight: 600;
+    color: orangered;
+}
+
+.card--price::after {
+    content: " \20AC";
+}
+
+.card--price.old-price {
+    font-weight: normal;
+    color: black;
+    text-decoration: line-through;
+}
+
 /* DEBUG */
 .debug .col-33 {
     height: 600px;
