@@ -13,6 +13,10 @@ a {
     color: inherit;
 }
 
+ul {
+    list-style: none;
+}
+
 img {
     width: 100%;
 }
@@ -65,8 +69,9 @@ header {
     margin: 0 auto;
 }
 
-.header--sections > a {
-    padding: 10px;
+.header--sections {
+    display: flex;
+    gap: 24px;
 }
 
 .header--user-area {
