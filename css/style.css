@@ -53,7 +53,7 @@ header {
     min-height: 50px;
 }
 
-.header--menu > div {
+.header--menu > * {
     flex: 1 0 0;
 }
 
