@@ -55,6 +55,14 @@ header {
     height: 24px;
 }
 
+.header--sections > a {
+    padding: 10px;
+}
+
+.header--user-area > a {
+    padding: 6px;
+}
+
 /* FOOTER */
 .footer--section {
     display: flex;
