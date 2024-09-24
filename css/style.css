@@ -30,7 +30,7 @@ img {
 }
 
 .col-33 {
-    padding: 6px;
+    padding: 24px 6px;
     width: calc(100% / 3);
 }
 
@@ -99,6 +99,20 @@ footer {
     position: relative;
 }
 
+.card--alt {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.col-33:hover {
+    .card--alt {
+        display: inline;
+    }
+}
+
 .card--favorite {
     position: absolute;
     background-color: white;
@@ -106,6 +120,11 @@ footer {
     font-size: 20px;
     right: 0;
     top: 10px;
+    z-index: 2;
+}
+
+.card--favorite > a:hover {
+    color: red;
 }
 
 .card--tags {
@@ -116,6 +135,7 @@ footer {
     bottom: 32px;
     color: white;
     font-size: 12px;
+    z-index: 2;
 }
 
 .card--tags > * {
