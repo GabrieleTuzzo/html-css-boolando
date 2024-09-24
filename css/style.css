@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 img {
     width: 100%;
 }
@@ -23,6 +28,12 @@ img {
 .col-33 {
     padding: 6px;
     width: calc(100% / 3);
+}
+
+/* HEADER */
+.header--menu {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* CARD IMAGE */
@@ -67,4 +78,8 @@ img {
 
 .debug figure {
     height: 400px;
+}
+
+header.debug {
+    background-color: orange;
 }
