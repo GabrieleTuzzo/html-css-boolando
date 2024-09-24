@@ -24,7 +24,7 @@ img {
 }
 
 .row {
-    padding: 120px 0;
+    padding: 80px 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -64,9 +64,34 @@ header {
 }
 
 /* FOOTER */
+footer {
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
 .footer--section {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+}
+
+.footer--info > h3 {
+    line-height: 1.8em;
+    font-size: 18px;
+}
+
+.footer--info > a {
+    font-size: 14px;
+    margin-right: 18px;
+}
+
+.footer--social > h4 {
+    margin-bottom: 12px;
+}
+
+.footer--social > a {
+    padding: 0 4px;
 }
 
 /* CARD IMAGE */
