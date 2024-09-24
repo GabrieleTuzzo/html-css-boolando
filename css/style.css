@@ -45,18 +45,32 @@ header {
 
 .header--menu {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     min-height: 50px;
+}
+
+.header--menu > div {
+    flex: 1 0 0;
 }
 
 .header--logo img {
     display: block;
     height: 24px;
+    width: auto;
+}
+
+.header--logo a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .header--sections > a {
     padding: 10px;
+}
+
+.header--user-area {
+    text-align: right;
 }
 
 .header--user-area > a {
