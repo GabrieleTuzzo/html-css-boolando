@@ -36,6 +36,12 @@ img {
     justify-content: space-between;
 }
 
+/* FOOTER */
+.footer--section {
+    display: flex;
+    justify-content: space-between
+}
+
 /* CARD IMAGE */
 .card--image {
     position: relative;
@@ -82,4 +88,9 @@ img {
 
 header.debug {
     background-color: orange;
+}
+
+footer.debug {
+    background-color: lightslategrey;
+    color: white;
 }
