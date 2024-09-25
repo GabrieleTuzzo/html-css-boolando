@@ -31,10 +31,14 @@ img {
     padding: 80px 0;
     display: flex;
     flex-wrap: wrap;
+    row-gap: 24px;
+}
+
+.row > * {
+    padding: 0 6px;
 }
 
 .col-33 {
-    padding: 24px 6px;
     width: calc(100% / 3);
 }
 
@@ -83,7 +87,15 @@ header {
     padding: 6px;
 }
 
-/* CARD IMAGE */
+/* CARD */
+.card--main {
+    display: block;
+}
+
+.card:hover .card--alt { 
+    display: inline;
+}
+
 .card--image {
     position: relative;
 }
@@ -94,12 +106,7 @@ header {
     z-index: 1;
     top: 0;
     left: 0;
-}
-
-.col-33:hover {
-    .card--alt {
-        display: inline;
-    }
+    height: 100%;
 }
 
 .card--favorite {
